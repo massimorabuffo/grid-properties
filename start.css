@@ -1,0 +1,17 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px));
+    grid-template-rows: repeat(3, minmax(100px));
+    grid-template-areas: 
+    "green green green"
+    "yellow red blue"
+    "orange orange blue";
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(2, 70px);
+    grid-template-rows: repeat(2, 70px);
+    justify-content: center;
+    justify-items: center;
+}
